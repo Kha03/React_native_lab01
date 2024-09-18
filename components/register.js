@@ -106,7 +106,7 @@ export default function Register({ navigation }) {
         <TouchableOpacity
           style={styles.btn}
           activeOpacity={0.8}
-          onPress={() => navigation.navigate("login")}
+          onPress={() => navigation.navigate("login_2")}
         >
           <Text style={styles.btn_text}>REGISTER</Text>
         </TouchableOpacity>
@@ -134,7 +134,6 @@ const styles = StyleSheet.create({
   text_input: {
     width: 340,
     height: 50,
-    backgroundColor: "#F2F2F2",
     alignItems: "center",
     flexDirection: "row",
     paddingLeft: 15,
