@@ -7,6 +7,7 @@ import Verifi from "./components/verifi";
 import Login from "./components/Login";
 import Register from "./components/register";
 import Login_2 from "./components/login_2";
+import Login_3 from "./components/login_3";
 const Stack = createStackNavigator();
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name="login" component={Login} />
         <Stack.Screen name="register" component={Register} />
         <Stack.Screen name="login_2" component={Login_2} />
+        <Stack.Screen name="login_3" component={Login_3} />
       </Stack.Navigator>
     </NavigationContainer>
   );

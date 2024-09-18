@@ -70,7 +70,7 @@ export default function Login_2({ navigation }) {
         <TouchableOpacity
           style={styles.btn}
           activeOpacity={0.8}
-          onPress={() => navigation.navigate("login")}
+          onPress={() => navigation.navigate("login_3")}
         >
           <Text style={styles.btn_text}>LOGIN</Text>
         </TouchableOpacity>
@@ -105,29 +105,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     paddingLeft: 5,
-  },
-  radioButtonContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-  },
-  radioButton: {
-    height: 23,
-    width: 23,
-    borderRadius: 20,
-    borderWidth: 2,
-    borderColor: "#000",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  radioButtonSelected: {
-    height: 15,
-    width: 15,
-    borderRadius: 20,
-    backgroundColor: "#000",
-  },
-  radioText: {
-    marginLeft: 14,
-    fontSize: 18,
   },
   btn: {
     marginTop: 60,
