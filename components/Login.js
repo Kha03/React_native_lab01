@@ -50,7 +50,11 @@ export default function Login({ navigation }) {
         </View>
       </View>
       <View>
-        <TouchableOpacity style={styles.btn} activeOpacity={0.8}>
+        <TouchableOpacity
+          style={styles.btn}
+          activeOpacity={0.8}
+          onPress={() => navigation.navigate("register")}
+        >
           <Text style={styles.btn_text}>LOGIN</Text>
         </TouchableOpacity>
       </View>
@@ -119,6 +123,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     paddingLeft: 15,
+    backgroundColor: "#C4C4C44D",
   },
   btn: {
     marginTop: 50,
